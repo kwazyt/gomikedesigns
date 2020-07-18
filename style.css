@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -218,8 +218,8 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
 .l-bloc .navbar-brand,
+.l-bloc .navbar a,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
@@ -230,8 +230,9 @@ a:hover {
 .l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
-.l-bloc p a {
+{
     color: rgba(0, 0, 0, .6);
+
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -284,7 +285,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .navbar {
@@ -325,7 +326,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -343,7 +344,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -639,19 +640,31 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+h1{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #c2f0ff;
+}
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-label,
+p{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: black;
+}
+label{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: black;
+}
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    
 }
 
 .container {
@@ -677,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -723,7 +736,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #c8f7fa;
 }
 
 h4 {
@@ -769,7 +782,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
 .bgc-dark-slate-blue {
@@ -781,17 +794,17 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: white;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #ff9966;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #ff9966;
 }
 
 .ltc-white {
@@ -803,11 +816,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #ff9966;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #ff9966;
 }
 
 .icon-dark-slate-blue {
