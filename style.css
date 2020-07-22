@@ -715,6 +715,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: white;
 }
 
 h2 {
@@ -798,8 +799,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #ff9966;
+    background: #804428;
+    color: #804428;
 }
 
 .btn-atomic-tangerine:hover {
@@ -816,7 +817,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #ff9966;
+    color: #804428;
 }
 
 .ltc-atomic-tangerine:hover {
